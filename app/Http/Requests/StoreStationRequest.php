@@ -29,4 +29,11 @@ class StoreStationRequest extends FormRequest
             'image' => 'required|image'
         ];
     }
+
+    public function messages()
+    {
+        return [
+            'image.required' => 'El campo imagen es obligatorio',
+        ];
+    }
 }
