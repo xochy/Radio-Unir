@@ -18,17 +18,6 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-
-    <style>
-        .footer {
-        right: 0;
-        bottom: 0;
-        left: 0;
-        padding: 1rem;
-        background-color: whitesmoke;
-        text-align: center;
-        }
-    </style>
 </head>
 <body>
     <div id="app">
@@ -96,10 +85,6 @@
                 @yield('content')
             </div>
         </main>
-    </div>   
-
-    <div class="footer">
-        <p>&copy; 2020 Radio UNIR, Inc.</p>
-      </div>
+    </div>  
 </body>
 </html>
