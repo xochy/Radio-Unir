@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Radio GENARO
+                    Radio UNIR
                 </div>
 
                 <div class="links">
